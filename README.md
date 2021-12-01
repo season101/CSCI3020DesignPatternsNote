@@ -96,3 +96,4 @@ Code refactoring is the process of restructuring existing computer code—changi
 - 4. ISP (Interface Segregation Principle)
 - 5. DIP (Dependency Inversion Principle)
 
+[Good resource on this one](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
