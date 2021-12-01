@@ -97,3 +97,53 @@ Code refactoring is the process of restructuring existing computer code—changi
 - 5. DIP (Dependency Inversion Principle)
 
 [Good resource on this one](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+
+---
+
+### Some Important Design Patterns
+
+#### I. Creational Design Pattern
+
+**Singleton Design Pattern**
+
+![Singleton Desing Pattern](/src/SingletonUML.jpg)
+
+This design pattern insures that we only have one instance of the class in the code.
+
+In Gang of Four(GoF) this has been described as:
+
+```
+--------------------------
+|       Singleton        |
+--------------------------
+| - instance: Singleton  |  <- static variable
+--------------------------
+| - Singleton()          |
+| getInstance()          |  <- static method
+--------------------------
+```
+
+**Note**:
+
+- Make Constructor Private
+- We make the instance variable to hold the instance of the Singleton Class. It should be made static.
+
+- We need to make static getInstance() method that returns that static instance of the class stored in the static variable *instance*.
+  
+#### II. Strucrural Design Pattern
+
+**Bridge Design Pattern**
+
+![Singleton Desing Pattern](/src/BridgeUML.jpg)
+
+
+**Facade Design Pattern**
+
+![Singleton Desing Pattern](/src/FacadeUML.jpg)
+
+
+#### III. Behavioral Design Pattern
+
+**State Design Pattern**
+
+![Singleton Desing Pattern](/src/StateUML.jpg)
