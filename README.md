@@ -85,7 +85,6 @@ Code documentation is text that accompanies software code to explain what your c
 
 Code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring is intended to improve the design, structure, and/or implementation of the software, while preserving its functionality.
 
-
 ### 2 Principles of Object Oriented Design
 
 **SOLID PRINCIPLE** stands for:
@@ -130,17 +129,19 @@ In Gang of Four(GoF) this has been described as:
 
 - We need to make static getInstance() method that returns that static instance of the class stored in the static variable *instance*.
   
+In a singleton class, when we first-time call getInstance() method, it creates an object of the class with name singleInstance and return it to the variable. Since singleInstance is static, it is changed from null to some object. Next time, if we try to call getInstance() method, since singleInstance is not null, it is returned to the variable, instead of instantiating the Singleton class again.
+
+Relevant code under package: `src\example\singleton`
+
 #### II. Strucrural Design Pattern
 
 **Bridge Design Pattern**
 
 ![Singleton Desing Pattern](/src/BridgeUML.jpg)
 
-
 **Facade Design Pattern**
 
 ![Singleton Desing Pattern](/src/FacadeUML.jpg)
-
 
 #### III. Behavioral Design Pattern
 
