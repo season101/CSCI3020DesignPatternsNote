@@ -150,7 +150,10 @@ Relevant code under package: `src\example\bridge`
 
 **Facade Design Pattern**
 
+It breaks the class dependency of Main class to a subsystem(Another Class).
 ![Singleton Desing Pattern](/src/FacadeUML.jpg)
+
+Relevant code under package: `src\example\facade`
 
 #### III. Behavioral Design Pattern
 
