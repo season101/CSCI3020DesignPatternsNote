@@ -137,7 +137,16 @@ Relevant code under package: `src\example\singleton`
 
 **Bridge Design Pattern**
 
-![Singleton Desing Pattern](/src/BridgeUML.jpg)
+![Bridge Design Pattern](/src/BridgeUML.jpg)
+
+It helps to simplify the hierarchy of classes. **Composition** relationship between Abstraction class and Implementation class helps us seperate between the Abstraction from its implementation.
+
+> Example Problem
+
+![Bridge Design Pattern Problem](/src/BridgeProblem.jpg)
+> Source Cited : https://www.tutorialspoint.com/design_pattern/bridge_pattern.
+
+Relevant code under package: `src\example\bridge`
 
 **Facade Design Pattern**
 
